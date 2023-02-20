@@ -3,7 +3,7 @@ import arrowRight from '../../assets/arrow-right.svg';
 
 export function EventButton() {
   return (
-    <>
+    <div className='eventButtonContainer'>
       <div className='under-desc'>Check our event page when you wait</div>
       <div className="eventButton">
         <a href='https://jsonplaceholder.typicode.com/users'>
@@ -13,6 +13,6 @@ export function EventButton() {
           </button>
         </a>
       </div>
-    </>
+    </div>
   );
 }

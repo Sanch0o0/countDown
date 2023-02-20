@@ -7,7 +7,7 @@ import rightBgPic from '../../assets/right-pic.png';
 import { EventButton } from '../EventButton/EventButton';
 
 
-export function CounterPage({handleEmailData, sending}) {
+export function CounterPage({ handleEmailData, sending }) {
 
 
   return (
@@ -18,11 +18,15 @@ export function CounterPage({handleEmailData, sending}) {
       <div className='right-bg-pic_container'>
         <img src={rightBgPic} alt="leftBgPic" className='right-bg-pic' />
       </div>
-      <Logo />
-      <h1 className='h-1'>UNDER CONSTRUCTION</h1>
-      <div className='m-desc'>We're making lots of impovements and will be back soon</div>
-      <Counter />
-      <EventButton />
+      <div className='containerCount'>
+        <Logo />
+        <div>
+          <h1 className='h-1'>UNDER CONSTRUCTION</h1>
+          <div className='m-desc'>We're making lots of impovements and will be back soon</div>
+        </div>
+        <Counter />
+        <EventButton />
+      </div>
       <Footer handleEmailData={handleEmailData} sending={sending} />
     </div>
   );
