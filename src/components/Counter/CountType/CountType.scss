@@ -1,0 +1,17 @@
+.countType{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+
+  @media screen and (max-width:768px) {
+    height: 36px;
+    column-gap: 5%;
+  }
+
+  @media screen and (max-width:380px) {
+    height: 36px;
+    column-gap: 5%;
+  }
+}

@@ -1,0 +1,34 @@
+.countDate{
+  display: grid;
+  grid-template-columns: 22% 3.5% 22% 3.5% 22% 3.5% 22%;
+  width: 100%;
+  justify-items: center;
+
+  @media screen and (max-width:768px) {
+    height: 36px;
+  }
+
+  @media screen and (max-width:380px) {
+    height: 36px;
+  }
+
+  .colon {
+    height: 70px;
+    left: 804px;
+    top: 382px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100%;
+    /* identical to box height, or 72px */
+    transform: translateY(-5px);
+
+    color: #162C4E;
+
+    @media screen and (max-width: 768px) {
+      font-size: 36px;
+    }
+  }
+}

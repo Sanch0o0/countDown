@@ -1,0 +1,20 @@
+.counter {
+  max-width: 600px;
+  height: 130px;
+  grid-template-columns: 22% 3.5% 22% 3.5% 22% 3.5% 22%;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    max-width: 358px;
+    height: 90%;
+    grid-template-columns: 18% 9% 18% 9% 18% 9% 18%;
+  }
+
+  @media screen and (max-width: 380px) {
+    max-width: 310px;
+    height: 90%;
+    grid-template-columns: 21% 6% 21% 6% 21% 6% 21%;
+
+  }
+
+}
